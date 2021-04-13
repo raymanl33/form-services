@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Form Services</title>
 </head>
@@ -12,11 +14,11 @@
     <div class="container">
         <h1>Send Yourself Email</h1>
         <div class= "form">
-    <form method="POST" action="https://simple-form.com/raymanl33@icloud.com">
-        <input type="text" name="name" placeholder="Your name" />
-        <input type="email" name="replyTo" placeholder="Your email" />
-        <textarea name="message" placeholder="Your message"  rows="30" cols="80"></textarea>
-        <input type="submit" value="Send" />
+    <form class="FormContainer" method="POST" action="https://simple-form.com/raymanl33@icloud.com">
+        <input id="name" type="text" name="name" placeholder="Your name" />
+        <input id="email" type="email" name="replyTo" placeholder="Your email" />
+        <textarea name="message" placeholder="     Your message"  rows="30" cols="80"></textarea>
+        <input id="send" type="submit" value="Send" />
     </form>
 </div>
 </div>

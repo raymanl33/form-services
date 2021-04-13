@@ -20,4 +20,34 @@
 
 h1 {
     grid-area: top;
+    font-family: 'Orelega One', cursive;
+}
+
+textarea {
+    background-color: #e0def4;
+    border-radius: 10%;
+    color: #eb6f92;
+    border-style: dashed;
+}
+
+
+.FormContainer {
+  padding:50px;
+  color: #eb6f92;
+}
+
+#name {
+    color: #eb6f92;
+
+}
+
+#email {
+    margin: 10px;
+    color: #eb6f92;
+}
+
+#send {
+    margin: 10px;
+    color: #c4a7e7;
+    border-style: ridge;
 }
