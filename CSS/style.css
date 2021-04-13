@@ -1,3 +1,23 @@
 * {
     background-color: aliceblue;
 }
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px;
+    grid-template-areas: 
+    'top top top'
+    'left center right';
+    width: 360px;
+
+}
+
+.form {
+    grid-area: center;
+}
+
+h1 {
+    grid-area: top;
+}
